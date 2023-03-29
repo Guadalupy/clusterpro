@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor { /*Parte diseñada para la parte superior del titulo de configuracion*/
+    width: 100%; /*ocupe el 100 de ancho de el rectangulo*/
+    max-width: 1200px; /* tamaño de la anchura de el rectangulo*/
+    overflow: hidden;
+    margin: auto;
+    padding: 14px 0;
+}
+
+
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* MANUAL DE USUARIO,galeria,enfoque etc */
+
+.subtitulo {
+    color: #9f8ad0; /*color */
+    font-size: 45px; /*tamaño de la fuente*/
+    text-align: center; /* texto en el centro de la pagina*/
+    font-weight: bold; /* negrita*/
+    margin-bottom: 5px; /*espacio entre la parte debajo del texto*/
+}
+
+
+
+
+
+.pdfview {
+    /* Centrado */
+    margin: auto;
+    display: block;
+    /* Tamaño */
+    width: 850px;
+    height: 100vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
